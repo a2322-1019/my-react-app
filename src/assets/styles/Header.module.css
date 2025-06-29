@@ -1,0 +1,88 @@
+
+.header {
+  background-color: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center; /* Выравниваем элементы по вертикали */
+  gap: 15px; /* Отступы между элементами */
+}
+
+.forRecruiters {
+  margin-left: 20px;
+  color: #333;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Кнопка Sign Up */
+.buttonjoin {
+  background-color: #3D1EDD;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.buttonjoin:hover {
+  background-color: #2b0f9e;
+}
+
+/* Кнопка Log In и Log Out */
+.login, .logout {
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #3D1EDD;           /* синий цвет текста */
+  background-color: transparent;
+  border: 2px solid #3D1EDD; /* синяя обводка */
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login:hover, .logout:hover {
+  background-color: #3D1EDD;
+  color: #fff;
+}
+
+/* Приветствие "Привет, Имя" */
+.greeting {
+  color: #3D1EDD;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid transparent; /* Чтобы размер совпадал с кнопками */
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  user-select: none; /* Чтобы нельзя было выделить текст */
+  cursor: default;
+}

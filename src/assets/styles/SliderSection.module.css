@@ -1,0 +1,37 @@
+
+.bloktem {
+  position: relative;
+  height: 600px;
+  background-color: black;
+  margin-top: 50px;
+}
+.slider {
+  position: relative;
+  height: 100%;
+}
+.heroImage {
+  position: absolute;
+  top: -150px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 60%;
+  height: 600px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.active {
+  opacity: 1;
+}
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255,255,255,0.7);
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  padding: 10px;
+  z-index: 2;
+}
+.prev { left: 10px; }
+.next { right: 10px; }

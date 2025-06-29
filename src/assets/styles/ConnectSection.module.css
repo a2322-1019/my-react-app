@@ -1,0 +1,27 @@
+
+.connect {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.connectImage {
+  max-width: 100%;
+  height: auto;
+  margin-right: 10%;
+}
+.connectText {
+  max-width: 600px;
+}
+.connectText h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.connectText p {
+  font-size: 18px;
+}

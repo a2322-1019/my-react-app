@@ -1,0 +1,58 @@
+.info {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.info h2 {
+    margin-bottom: 20px;
+}
+
+.info-image {
+    width: 100%;
+    margin: 30px auto;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.feature {
+    width: 30%;
+    text-align: left;
+}
+
+.thick-line {
+    border: none;
+    height: 5px;
+    background-color: #007BFF;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.feature:hover .thick-line {
+    background-color: #0056b3;
+}
+
+.features .feature:not(:hover) .thick-line {
+    opacity: 0.3;
+}
+#features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .feature {
+    margin: 20px;
+    width: calc(33.33% - 40px); /* Установите ширину так, чтобы карточки вмещались в ряд */
+    text-align: left;
+  }
+  
+  .feature hr {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
