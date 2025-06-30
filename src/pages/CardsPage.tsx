@@ -11,7 +11,7 @@ const CardsPage: React.FC = () => {
   return (
     <div className={styles.container}>
       <h1>Страница со списком карточек</h1>
-      {/* Передаем класс для сетки карточек */}
+     
       <CardList limit={limit} containerClassName={styles.cardsGrid} />
     </div>
   );
